@@ -16,11 +16,12 @@
         <button id="restart" type="button">Restart</button>
       </div>
       <div class="controls" aria-label="Mobile controls">
-        <button type="button" data-dir="up">Up</button>
-        <div>
-          <button type="button" data-dir="left">Left</button>
-          <button type="button" data-dir="down">Down</button>
-          <button type="button" data-dir="right">Right</button>
+        <p class="controls-label">Touch controls</p>
+        <div class="dpad" role="group" aria-label="Gamepad directional pad">
+          <button type="button" data-dir="up" class="dpad-btn up" aria-label="Move up">↑</button>
+          <button type="button" data-dir="left" class="dpad-btn left" aria-label="Move left">←</button>
+          <button type="button" data-dir="right" class="dpad-btn right" aria-label="Move right">→</button>
+          <button type="button" data-dir="down" class="dpad-btn down" aria-label="Move down">↓</button>
         </div>
       </div>
     </main>
